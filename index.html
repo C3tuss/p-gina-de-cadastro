@@ -10,32 +10,31 @@
 <body>
     <main class="apresentacao">
         <section class="apresentacao_cadastro">
+
             <h1 class="apresentacao_cadastro_titulo">Cadastra-se!</h1>
             <p class="apresentacao_cadastro_paragrafo">Preencha suas informações</p>
-            <form >
-                <div>
-                    <label for="idnome">Nome:</label>
-                    <input type="text" id="idnome" name="idnome">
+
+            <form class="apresentacao_campos" >
+                <div class="apresentacao_campo">
+                    <input type="text" class="apresentacao_campo_input" name="idnome" placeholder="Nome">
                 </div>
 
-                <div>
-                    <label for="idemail">Email:</label>
-                    <input type="email" id="idemail">
+                <div class="apresentacao_campo">
+                    <input type="email" class="apresentacao_campo_input" placeholder="Seu email">
                 </div>
 
-                <div>
-                    <label for="idpassword">Senha:</label>
-                    <input type="password" name="idpassword" id="idpassword">
+                <div class="apresentacao_campo">
+                    <input type="password" name="idpassword" class="apresentacao_campo_input" placeholder="Digite sua senha">
                 </div>
                 
-                <div>
-                    <label for="idpassword">Confirme sua senha:</label>
-                    <input type="password" name="idpassword" id="idpassword">
+                <div class="apresentacao_campo">
+                    
+                    <input type="password" name="idpassword" class="apresentacao_campo_input" placeholder="Confirme sua senha">
                 </div>
 
-                <div>
-                    <label for="idtelefone">Telefone:</label>
-                    <input type="text" name="idtelefone" id="idtelefone">
+                <div class="apresentacao_campo">
+        
+                    <input type="text" name="idtelefone" class="apresentacao_campo_input" placeholder="Digite seu telefone">
                 </div>
 
             </form>
