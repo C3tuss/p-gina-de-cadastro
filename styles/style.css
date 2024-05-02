@@ -1,0 +1,44 @@
+:root {
+    --cor-primaria: #222222;
+    --cor-secundaria: #328336;
+    --cor-terciaria: #fbfbfd;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.apresentacao{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+.apresentacao_imagem {
+    width: 50%;
+    /* border: 3px solid var(--cor-terciaria); */
+}
+.apresentacao_cadastro {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    width: 47rem;
+    height: 20rem;
+    border-radius: 20px;
+    gap: 10px;
+    padding: 5%;
+    
+}
+
